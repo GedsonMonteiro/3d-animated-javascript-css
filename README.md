@@ -1,7 +1,6 @@
 # 3D HEAD ANIMATED
 
-<img src="img\Tilt_js.png" width="150" height="150">
-<img src="img\vanilla JS.png" width="300" height="150"><br><br>
+<img src="img\Tilt_js.png" width="150" height="150"><img src="img\vanilla JS.png" width="300" height="150"><br><br>
 
 ![Build Status](https://img.shields.io/badge/created%20in-VS%20Code-blue)<br>
 
