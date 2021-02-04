@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*Head*/
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.container .box:hover{
+    transform: translateZ(50px) scaleY(1);
+}
+
+/*Eyes*/
+.eyes{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-64%);
+    width: 101.3%;
+    text-align: center;
+    z-index: -1;
+}
+
+.eye{
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    display: inline-block;
+    margin: 60px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 0 5px 45px rgba(0,0,0,0.2),
+        inset 0 0 15px #4b4848,
+        inset 0 0 25px #4b4848;
+    overflow: hidden;
+}
+
+.ball{
+    width: 50px;
+    height: 50px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 15px solid #333;
+}
+
+/*HORROR FONT*/
