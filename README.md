@@ -8,3 +8,5 @@
 <font size="3">*Design of a head with **3D effect** and **cursor animation**, created with javaScript.*</font><br><br>
 
 Face 3D (Goggle Images): Designer by <span>Marionettes</span>.cz<br><br>
+
+![](head.gif)
